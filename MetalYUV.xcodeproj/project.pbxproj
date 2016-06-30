@@ -12,6 +12,9 @@
 		CD1659C31D25848E00747503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1659C11D25848E00747503 /* Main.storyboard */; };
 		CD1659C51D25848E00747503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1659C41D25848E00747503 /* Assets.xcassets */; };
 		CD1659C81D25848E00747503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1659C61D25848E00747503 /* LaunchScreen.storyboard */; };
+		CD1659D01D2585A900747503 /* sample_1280_544.yuv in Resources */ = {isa = PBXBuildFile; fileRef = CD1659CF1D2585A900747503 /* sample_1280_544.yuv */; };
+		CD1659D21D25865600747503 /* PLVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1659D11D25865600747503 /* PLVideoView.swift */; };
+		CD1659D41D25958C00747503 /* Base.metal in Sources */ = {isa = PBXBuildFile; fileRef = CD1659D31D25958C00747503 /* Base.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CD1659C41D25848E00747503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1659C71D25848E00747503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD1659C91D25848E00747503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1659CF1D2585A900747503 /* sample_1280_544.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_1280_544.yuv; sourceTree = "<group>"; };
+		CD1659D11D25865600747503 /* PLVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLVideoView.swift; sourceTree = "<group>"; };
+		CD1659D31D25958C00747503 /* Base.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Base.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		CD1659BC1D25848D00747503 /* MetalYUV */ = {
 			isa = PBXGroup;
 			children = (
+				CD1659CF1D2585A900747503 /* sample_1280_544.yuv */,
 				CD1659BD1D25848D00747503 /* AppDelegate.swift */,
 				CD1659BF1D25848D00747503 /* ViewController.swift */,
 				CD1659C11D25848E00747503 /* Main.storyboard */,
 				CD1659C41D25848E00747503 /* Assets.xcassets */,
 				CD1659C61D25848E00747503 /* LaunchScreen.storyboard */,
 				CD1659C91D25848E00747503 /* Info.plist */,
+				CD1659D11D25865600747503 /* PLVideoView.swift */,
+				CD1659D31D25958C00747503 /* Base.metal */,
 			);
 			path = MetalYUV;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1659C81D25848E00747503 /* LaunchScreen.storyboard in Resources */,
+				CD1659D01D2585A900747503 /* sample_1280_544.yuv in Resources */,
 				CD1659C51D25848E00747503 /* Assets.xcassets in Resources */,
 				CD1659C31D25848E00747503 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1659C01D25848D00747503 /* ViewController.swift in Sources */,
+				CD1659D21D25865600747503 /* PLVideoView.swift in Sources */,
+				CD1659D41D25958C00747503 /* Base.metal in Sources */,
 				CD1659BE1D25848D00747503 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 				CD1659CE1D25848E00747503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
